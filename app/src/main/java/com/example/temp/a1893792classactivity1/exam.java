@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 // Toast.makeText(getApplicationContext(),edt_name.getText().toString(),Toast.LENGTH_LONG).show();
-                mytoast.setText("Surya Teja! Thank You");
+                mytoast.setText("neetu bala! Thank You");
                 mytoast.setDuration(Toast.LENGTH_LONG);
 
                 mytoast.show();
