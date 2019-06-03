@@ -8,7 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class Exam extends AppCompatActivity {
 
     EditText edt_Fname,edt_Lname,edt_email,edt_pass ;
     Button btn_sub;
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_exam);
 
         edt_Fname=findViewById(R.id.fname);
         edt_Lname=findViewById(R.id.lname);
@@ -57,7 +57,5 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
-}
 
 }
